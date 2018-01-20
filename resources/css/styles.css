@@ -1,0 +1,107 @@
+/* global styles */
+
+/* .frame {
+  max-width: 960px;
+  margin: 0 auto;
+
+} */
+
+/* navigation */
+nav {
+  background-color: firebrick;
+  height: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav h1 {
+  text-transform: uppercase;
+}
+
+nav span {
+  font-weight: bold;
+}
+
+nav li {
+  display: inline-block;
+}
+
+/* end navigation */
+
+/* jumbotron */
+
+.jumbotron {
+  width: 100%;
+  background-color: #d4d4d4;
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+}
+
+
+
+.banner-left {
+  width: 60%;
+  margin: 32px 24px;
+  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+}
+
+.banner-left img {
+  width: 100%;
+}
+
+.banner-right {
+  width: 40%;
+  margin: 32px 24px;
+  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+}
+
+.banner-right-copy {
+border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+
+}
+
+.banner-right-button {
+  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+}
+
+
+.banner-right-links {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+}
+
+.banner-right-links-images {
+  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+}
+
+.banner-right-links-copy {
+  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+}
+
+.banner-center {
+  width: 100%;
+  background-color: #d4d4d4;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+}
+
+.cards {
+  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+
+}
+
+
+footer {
+  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+  height: 150px;
+}
+
+.footer-copy {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}

@@ -1,103 +1,372 @@
 /* global styles */
 
-/* .frame {
-  max-width: 960px;
-  margin: 0 auto;
-
-} */
-
-/* navigation */
-nav {
-  background-color: firebrick;
-  height: 64px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+html {
+  font-size: 16px;
 }
 
-nav h1 {
+/* start css navigation */
+
+nav {
+  background-color: #55198B;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.logo h1 {
+  color: #ffffff;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
-nav span {
-  font-weight: bold;
+.logo {
+  margin-left: 24px;
+  height: 32px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
 }
 
-nav li {
-  display: inline-block;
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 24px;
+  font-family: 'Raleway', sans-serif;
 }
 
-/* end navigation */
+.navigation a {
+  color: #ffffff;
+  margin-left: 16px;
+  text-decoration: none;
+}
 
-/* jumbotron */
+.navigation a:hover {
+  text-decoration: underline;
+}
 
-.jumbotron {
+/* end css navigation */
+
+/* start css jumbotron-one */
+
+.jumbotron-one {
+  padding-top: 64px;
   width: 100%;
-  background-color: #d4d4d4;
+  background-color: #F9F3E5;
   display: flex;
   justify-content: flex-start;
-  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
 }
 
-
-
-.banner-left {
+.banner-left {        /* also use for jumbotron-two */
   width: 60%;
   margin: 32px 24px;
-  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+}
+
+.banner-right {       /* also use for jumbotron-two */
+  width: 40%;
+  margin: 32px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-right-copy {
+padding-top: 180px;
+margin-bottom: 40px;
+}
+
+.banner-right-copy h2 {
+  padding-bottom: 2rem;
+  font-size: 3.25rem;
+  color: #55198B;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.banner-right-copy h3 {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  color: #4C4C4C;
+  font-family: 'Raleway', sans-serif;
+}
+
+.banner-right-button {
+  background-color: #55198B;
+  width: 70%;
+}
+
+.banner-right-button:hover {
+  background-color: #404040;
+  width: 70%;
+}
+
+.banner-right-button h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 8px 0;
+  color: #ffffff;
+}
+
+/* end css jumbotron-one */
+
+/* start css jumbotron-two */
+
+.jumbotron-two {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.banner-left h2 {
+  padding-bottom: 24px;
+  font-size: 3rem;
+  margin-top: 32px;
+  color: #55198B;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+.banner-left p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-bottom: 40px;
+  color: #4A4A4A;
+}
+
+.banner-left span {
+  font-family: 'Kalam', cursive;
+  font-size: 1.15rem;
+  color: #55198B;
+}
+
+.banner-right-links {
+  display: flex;
+  align-items: center;
+}
+
+.banner-right-links img {
+  padding-left: 16px;
+  margin: 0 16px 16px 0;
+  height: auto;
+  width: 35%;
+}
+
+.banner-right-links-copy span {
+  font-family: 'Raleway', sans-serif;
+  color: #55198B;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.banner-right-links-copy span:hover {
+  text-decoration: underline;
+}
+
+.banner-right-links-copy p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.75rem;
+  margin-bottom: 15px;
+  color: #4A4A4A;
+}
+
+.banner-right-links-copy {
+  width: 65%;
+}
+
+.banner-right-links-copy h4 {
+  font-family: 'Alfa Slab One', cursive;
+  color:#404040;
+  font-size: 1.5rem;
+  margin-bottom: 4px;
 }
 
 .banner-left img {
   width: 100%;
 }
 
-.banner-right {
-  width: 40%;
-  margin: 32px 24px;
-  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
-}
+/* start special color */
 
-.banner-right-copy {
-border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
-
-}
-
-.banner-right-button {
-  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
-}
-
-
-.banner-right-links {
+.banner-right-links-special {
   display: flex;
-  justify-content: flex-start;
-  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+  align-items: center;
+  background-color: #55198B;
 }
 
-.banner-right-links-images {
-  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+.banner-right-links-special img {
+  padding-left: 16px;
+  margin: 16px 16px 16px 0;
+  height: auto;
+  width: 35%;
 }
 
-.banner-right-links-copy {
-  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
+.banner-right-links-copy-special p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.75rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.banner-right-links-copy-special {
+  color: white;
+  width: 65%;
+
+}
+
+.banner-right-links-copy-special h4 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.banner-right-links-copy-special span {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.banner-right-links-copy-special span:hover {
+  text-decoration: underline;
+}
+
+/* end special color */
+
+/* end css jumbotron-two */
+
+/* start css jumbotron-three */
+
+.jumbotron-three {
+  background-color: #F9F3E5;
+}
+
+.jumbotron-three h2 {
+  padding-top: 32px;
+  font-size: 3rem;
+  color: #55198B;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
 }
 
 .banner-center {
-  width: 100%;
-  background-color: #d4d4d4;
+  margin-top: 32px;
+  margin-left: 72px;
+  margin-right: 72px;
   display: flex;
+  justify-content: space-between;
+  align-content: space-between;
   flex-wrap: wrap;
-  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
 }
 
 .cards {
-  border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
-
+  margin-bottom: 32px;
+  width: 30%;
+  background-color: white;
 }
 
+.cards img {
+  height: auto;
+  width: 100%;
+}
+
+.cards h4 {
+  font-family: 'Alfa Slab One', cursive;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  font-size: 1.35rem;
+  padding-left: 16px;
+  color: #4C4C4C;
+}
+
+.cards p {
+  font-size: .85rem;
+  line-height: 1.25rem;
+  padding-left: 16px;
+  padding-bottom: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+
+p.upper {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-left: 16px;
+  padding-bottom: 8px;
+  font-family: 'Raleway', sans-serif;
+  color: #55198B;
+}
+
+/* end css jumbotron-three */
+
+/* start css jumbotron-four */
+
+.jumbotron-four {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.thesis h2 {
+  padding-top: 32px;
+  font-size: 3rem;
+  color: #55198B;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+}
+
+.banner-left video {
+  width: 100%;
+}
+
+/* start special color */
+
+.banner-right-links-special-thesis {
+  display: flex;
+  align-items: center;
+  background-color: #55198B;
+  margin-bottom: 16px;
+}
+
+.banner-right-links-special-thesis img {
+  padding-left: 16px;
+  margin: 16px 16px 16px 0;
+  height: auto;
+  width: 35%;
+}
+
+.banner-right-links-copy-special-thesis p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.75rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.banner-right-links-copy-special-thesis {
+  color: white;
+  width: 65%;
+}
+
+.banner-right-links-copy-special-thesis h4 {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+/* end special color */
+
+/* end css jumbotron-four */
+
+/* start footer */
 
 footer {
   border: 1px solid black;    /* <<<<<<<<<<<<<<<<<<  DELETE */
   height: 150px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #404040;
 }
 
 .footer-copy {
@@ -105,3 +374,23 @@ footer {
   justify-content: space-between;
   padding: 16px 24px;
 }
+
+.copyright p,
+.fine-print p {
+  color: #ffffff;
+}
+
+.copyright p a,
+.fine-print p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.copyright p a:hover,
+.fine-print p a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+/* end footer */

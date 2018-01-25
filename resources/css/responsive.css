@@ -1,0 +1,122 @@
+/* global css styles */
+
+@media only screen and (max-width: 375px) {
+.logo h1 {
+  display: none;
+  }
+
+.navigation {
+  display: none;
+}
+
+/* start css jumbotron-one */
+
+.jumbotron-one {
+  padding-top: 32px;
+  width: 100%;
+  background-color: #F9F3E5;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-left {        /* also use for jumbotron-two */
+  width: 100%;
+  margin: 32px 0px;
+}
+
+.banner-right {       /* also use for jumbotron-two */
+  width: 100%;
+  margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-right-copy {
+padding-top: 0px;
+margin-bottom: 40px;
+}
+
+.banner-right-copy h2 {
+  padding-bottom: 1.8rem;
+  font-size: 2rem;
+  color: #55198B;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+}
+
+.banner-right-copy h3 {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #4C4C4C;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.banner-right-button {
+  background-color: #55198B;
+  width: 70%;
+  margin-bottom: 32px;
+}
+
+.banner-right-button:hover {
+  background-color: #404040;
+  width: 70%;
+}
+
+.banner-right-button h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 8px 0;
+  color: #ffffff;
+}
+
+/* start css jumbotron-two */
+
+.jumbotron-two {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 16px;
+}
+
+.no-banner {
+  display: none;
+}
+
+.banner-right-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-right-links img {
+  padding-left: 16px;
+  margin: 0 16px 16px 0;
+  height: auto;
+  width: 100%;
+}
+
+.banner-right-links-copy {
+  width: 90%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} /** end of media queries

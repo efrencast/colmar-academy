@@ -318,6 +318,14 @@ p.upper {
   text-align: center;
 }
 
+.banner-left h5 {
+  padding-top: 32px;
+  padding-bottom: 8px;
+  font-size: 1.5rem;
+  color: #55198B;
+  font-family: 'Alfa Slab One', cursive;
+}
+
 .banner-left video {
   width: 100%;
 }

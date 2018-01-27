@@ -156,6 +156,10 @@ margin-bottom: 40px;
   width: 35%;
 }
 
+.img-2 {
+  display: none;
+}
+
 .banner-right-links-copy span {
   font-family: 'Raleway', sans-serif;
   color: #55198B;

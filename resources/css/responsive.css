@@ -96,7 +96,23 @@ margin-bottom: 40px;
   padding-left: 16px;
   margin: 0 16px 16px 0;
   height: auto;
-  width: 100%;
+  width: 90%;
+}
+
+.banner-right-links-copy p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.75rem;
+  margin-bottom: 2px;
+  color: #4A4A4A;
+}
+
+.img-1 {
+  display: none;
+}
+
+.img-2 {
+  display: block;
+  padding-top: 16px;
 }
 
 .banner-right-links-copy {
@@ -104,9 +120,58 @@ margin-bottom: 40px;
   text-align: center;
 }
 
+.banner-right-links-special {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.banner-right-links-special img {
+  padding-left: 16px;
+  margin: 16px 16px 16px 0;
+  height: auto;
+  width: 35%;
+}
+
+.banner-right-links-copy-special p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.75rem;
+  margin-bottom: 2px;
+  color: #4A4A4A;
+}
+
+.banner-right-links-copy-special {
+  color: white;
+  width: 65%;
+  text-align: center;
+}
+
+.banner-right-links-copy-special h4 {
+  font-family: 'Alfa Slab One', cursive;
+  color:#404040;
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.banner-right-links-copy-special span {
+  font-family: 'Raleway', sans-serif;
+  color: #55198B;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.banner-right-links-copy-special span:hover {
+  text-decoration: underline;
+}
+
 /* end css jumbotron-two */
 
 /* start css jumbotron-three */
+
+.jumbotron-three {
+  background-color: #F9F3E5;
+  margin-top: 32px;
+}
 
 .jumbotron-three h2 {
   padding-top: 32px;

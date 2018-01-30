@@ -39,6 +39,10 @@ nav {
   font-family: 'Raleway', sans-serif;
 }
 
+.nav-responsive {
+  display: none;
+}
+
 .navigation a {
   color: #ffffff;
   margin-left: 16px;
@@ -95,6 +99,11 @@ margin-bottom: 40px;
 .banner-right-button {
   background-color: #55198B;
   width: 70%;
+}
+
+.banner-right-button a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .banner-right-button:hover {
@@ -167,6 +176,11 @@ margin-bottom: 40px;
   text-transform: uppercase;
 }
 
+.banner-right-links-copy span a {
+  text-decoration: none;
+  color: #55198B;
+}
+
 .banner-right-links-copy span:hover {
   text-decoration: underline;
 }
@@ -234,6 +248,11 @@ margin-bottom: 40px;
   text-transform: uppercase;
 }
 
+.banner-right-links-copy-special span a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .banner-right-links-copy-special span:hover {
   text-decoration: underline;
 }
@@ -270,6 +289,11 @@ margin-bottom: 40px;
   margin-bottom: 32px;
   width: 30%;
   background-color: white;
+}
+
+.cards:hover {
+  background-color: hsla(272, 70%, 32%, 0.6);
+  cursor: pointer;
 }
 
 .cards img {

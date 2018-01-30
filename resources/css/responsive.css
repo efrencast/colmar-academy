@@ -1,13 +1,34 @@
 /* global css styles */
 
 @media only screen and (max-width: 375px) {
+
+/* start css navigation */
+
 .logo h1 {
   display: none;
-  }
+}
 
-.navigation {
+.logo {
+  margin-left: 16px;
+  height: 32px;
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navigation a {
   display: none;
 }
+
+.navigation .nav-responsive {
+  display: inline;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+/* end css navigation */
 
 /* start css jumbotron-one */
 
@@ -158,6 +179,10 @@ margin-bottom: 40px;
   color: #55198B;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.banner-right-links-copy-special span a {
+  color: #55198B;
 }
 
 .banner-right-links-copy-special span:hover {
